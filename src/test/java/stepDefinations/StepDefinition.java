@@ -36,4 +36,16 @@ public class StepDefinition {
 
     
  from second user
+ 
+ 
+ 
+ @RunWith(Cucumber.class)
+ public class StepDefinition {
+
+     @Given("^User is on Bank landing page$")
+     public void user_is_on_bank_landing_page() throws Throwable {
+     	System.out.println("Landing page");
+        
+     }
+
 
